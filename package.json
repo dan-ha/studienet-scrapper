@@ -1,0 +1,19 @@
+{
+  "name": "studienet-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "debug": "node --nolazy --inspect-brk=9229 src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "mime": "^2.4.4",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^1.18.0"
+  }
+}
